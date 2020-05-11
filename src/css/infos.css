@@ -1,0 +1,382 @@
+/*
+GLOBAL
+*/
+.body {
+    margin-top: 100px;
+    background-color: #2a3747;
+    background: no-repeat linear-gradient(transparent, #2a3747),
+    url("../img/world.jpg");
+    background-size: cover;
+}
+
+.heading-site {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading-site1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-top: -30px;
+}
+
+/*
+HEADER
+*/
+.header {
+    width: 100%;
+    height: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    line-height: 100px;
+    background: url("../img/bg.jpg");
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+}
+
+.header .header-logo {
+    color: #fff;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.header .header-menu {
+    float: right;
+    margin-right: 30px;
+}
+
+.header .header-menu a {
+    margin-right: 40px;
+    color: #fff;
+    font-family: 'Varela Round', sans-serif;
+    transition-duration: .25s;
+}
+
+.header .header-menu a:hover {
+    font-size: 17px;
+    color: #fc5c65;
+}
+
+
+
+
+
+
+/*
+CARDS
+*/
+
+.txt {
+    color: #fff;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.img {
+    height: 80px;
+}
+
+.card-1 {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 40%;
+    height: 207px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 30%;
+}
+
+.img1 {
+    margin-left: 50px;
+    margin-top: 65px;
+}
+
+.txt1 {
+    width: 80%;
+    padding: 10px 10px 10px;
+    float: right;
+    margin-top: -139px;
+}
+
+.card-2 {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 40%;
+    height: 207px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 30%;
+}
+
+.img2 {
+    margin-left: 20px;
+    margin-top: 65px;
+}
+
+.txt2 {
+    width: 80%;
+    padding: 10px 20px 10px;
+    float: left;
+    margin-top: 35px;
+}
+
+.card-3 {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 40%;
+    height: 207px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 30%;
+}
+
+.img3 {
+    margin-left: 50px;
+    margin-top: 65px;
+}
+
+.txt3 {
+    width: 80%;
+    padding: 10px 10px 10px;
+    float: right;
+    margin-top: 39px;
+}
+
+.card-4 {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 40%;
+    height: 207px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 30%;
+}
+
+.img4 {
+    margin-left: 20px;
+    margin-top: 65px;
+}
+
+.txt4 {
+    width: 80%;
+    padding: 10px 20px 10px;
+    float: left;
+    margin-top: 12px;
+}
+
+.card-5 {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 40%;
+    height: 207px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 30%;
+}
+
+.img5 {
+    margin-left: 50px;
+    margin-top: 65px;
+}
+
+.txt5 {
+    width: 80%;
+    padding: 10px 10px 10px;
+    float: right;
+    margin-top: 50px;
+}
+
+
+/*
+DIAP
+*/
+.diap {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 200px;
+}
+.diap1 {
+    width: 100%;
+    height: 150px;
+}
+.diap2 {
+    width: 100%;
+    height: 100px;
+}
+
+
+
+.title {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*
+PROGRESSBAR
+*/
+div#progressbar {
+    z-index: 999;
+    position: fixed;
+    background: no-repeat linear-gradient(transparent, #2a3747),
+    url("../img/world.jpg");
+    height: 100%;
+    width: 100%;
+    margin-top: -100px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* KEYFRAMES */
+
+@keyframes spin {
+    from {
+      transform: rotate(0);
+    }
+    to{
+      transform: rotate(359deg);
+    }
+  }
+  
+  @keyframes spin3D {
+    from {
+      transform: rotate3d(.5,.5,.5, 360deg);
+    }
+    to{
+      transform: rotate3d(0deg);
+    }
+  }
+  
+  @keyframes configure-clockwise {
+    0% {
+      transform: rotate(0);
+    }
+    25% {
+      transform: rotate(90deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    75% {
+      transform: rotate(270deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes configure-xclockwise {
+    0% {
+      transform: rotate(45deg);
+    }
+    25% {
+      transform: rotate(-45deg);
+    }
+    50% {
+      transform: rotate(-135deg);
+    }
+    75% {
+      transform: rotate(-225deg);
+    }
+    100% {
+      transform: rotate(-315deg);
+    }
+  }
+  
+  @keyframes pulse {
+    from {
+      opacity: 1;
+      transform: scale(1);
+    }
+    to {
+      opacity: .25;
+      transform: scale(.75);
+    }
+  }
+  
+  /* SOLAR SYSTEM */
+  
+  .solar-system {
+    margin-top: 380px;
+    margin-left: 935px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .orbit {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #ffffffa5;
+      border-radius: 50%;
+  }
+  
+  .earth-orbit {
+      width: 165px;
+      height: 165px;
+    -webkit-animation: spin 12s linear 0s infinite;
+  }
+  
+  .venus-orbit {
+      width: 120px;
+      height: 120px;
+    -webkit-animation: spin 7.4s linear 0s infinite;
+  }
+  
+  .mercury-orbit {
+      width: 90px;
+      height: 90px;
+    -webkit-animation: spin 3s linear 0s infinite;
+  }
+  
+  .planet {
+      position: absolute;
+      top: -5px;
+    width: 10px;
+    height: 10px;
+      border-radius: 50%;
+    background-color: #3ff9dc;
+  }
+  
+  .sun {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background-color: #ffab91;
+  }
+
+
+
+
+/*
+SCROLLBAR
+*/
+::-webkit-scrollbar {
+    width: 10px;
+} 
+::-webkit-scrollbar-track {
+    background: #233645;
+    width: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background: #445870;
+    border-radius: 20px;
+    transition-duration: 0.25s;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(145, 145, 145);
+}
+::-webkit-scrollbar-thumb:active {
+  background: rgb(126, 126, 126);
+}
